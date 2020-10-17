@@ -1,0 +1,84 @@
+body {
+    height: 400px;
+}
+
+.div1 {
+    position: relative;
+    top: -20px;
+    left: -20px;
+    background-color: yellow;
+    width: 650px;
+    height: 150px;
+}
+
+.div2 {
+    position: relative;
+    left: 400px;
+    top: -186px;
+    border-bottom: 150px solid red;
+    border-left: 50px solid transparent;
+    width: 1078px;
+    height: 0;
+}
+
+.div3 {
+    position: relative;
+    background-color: yellow;
+    width: 850px;
+    height: 550px;
+    left: 320px;
+    top: -150px;
+}
+
+.p_div2 {
+    position: relative;
+    top: 40px;
+}
+
+.p_div1 {
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+
+
+.star-six {
+    top: 70px;
+    left: 50px;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid;
+    position: relative;
+}
+
+.star-six:after {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid;
+    position: absolute;
+    content: "";
+    top: 30px;
+    left: -50px;
+}
+
+.star-six #first_star{
+    position: relative;
+    top: -1px;
+    left: 150px;
+}
+
+.star-six #second_star{
+    position: relative;
+    top: -100px;
+    left: 350px;
+}
+
+.star-six #third_star{
+    position: relative;
+    top: -200px;
+    left: 550px;
+}

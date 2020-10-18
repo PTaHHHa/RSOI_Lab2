@@ -28,6 +28,14 @@ body {
     height: 550px;
     left: 320px;
     top: -150px;
+    border: 14px double black;
+    border-radius: 50px;
+}
+
+p{
+    position: relative;
+    left: 10px;
+    width: 820px;
 }
 
 .p_div2 {
@@ -66,7 +74,7 @@ body {
     left: 570px;
 }
 
-.B{
+.letters{
     width: 5px;
     height: 10px;
     position: absolute;
@@ -76,31 +84,5 @@ body {
     font-weight: bold;
     font-family: Cambria;
     letter-spacing: 116px;
-}
-
-.R{
-    width: 5px;
-    height: 10px;
-    position: absolute;
-    left: 250px;
-    top: -60px;
-    font-size: 111px;
-}
-
-.U{
-    width: 5px;
-    height: 10px;
-    position: absolute;
-    left: 440px;
-    top: -60px;
-    font-size: 111px;
-}
-
-.H{
-    width: 5px;
-    height: 10px;
-    position: absolute;
-    left: 630px;
-    top: -60px;
-    font-size: 111px;
+    z-index: 1;
 }
